@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class DirectionForm extends Component {
   render() {
     return (
-        <section>
+        <div>
           <label for='destination'>Destination: </label>
           <br />
           <input type='text' name='destination' />
@@ -14,7 +14,7 @@ export default class DirectionForm extends Component {
           <br />
           <br />
           <button>View Direction</button>
-      </section>
+      </div>
     )
   }
 }
